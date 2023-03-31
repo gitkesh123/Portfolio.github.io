@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web site</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/eb55c72ac6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png"class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#portfolio">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+        <p></p>
+        <h1>Hi,I'm<span> Keshan</span><br>from Sri Lanka</h1>
+    </div>
+    </div>
+</div>
+<!--------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/amd.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hi.. I'm Keshan Nilhara; from Sri Lanka & a student in SLTC Campus.
+                    I'm studying BSc(Hons)in Cyber Security.
+                    Happy to be a dynamic IT professional, working in challenging 
+                    environments that would enable myself to enhance and innate 
+                    abilities in the corporate sector successfully, leading to 
+                    self-development and upliftment of the Sri Lankan economy.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding</span><br>HTML/JAvascript</li>
+                            <li><span>Networking</span><br>Maintain LAN/WAN</li>
+                            <li><span>Soft Skills</span><br>Critical thinking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020</span><br>A laboratory-based course on internet security</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Present</span><br>BSc(Hons)in Cyber Security Sri Lanka Technological Campus/Padukka</li>
+                            <li><span>2021</span><br>Certificate in Computer Networking (Full Time)College of Technology Galle</li>
+                            <li><span>2019-2021</span><br>G.C.E Advanced Level Richardpathirana College</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------services-------->
+<div id="Services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Penetration Testing</h2>
+                <p>I can identify cybersecurity vulnerabilities before an intruder has the opportunity to infiltrate your network or computer system.</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-list-check"></i>
+                <h2>Firewall Management</h2>
+                <p>Trust us with regular audits, logging, updates, and documentation to ensure that your firewall is up to regulation.</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-key"></i>
+                <h2>Endpoint Security</h2>
+                <p>Endpoint Security contains products designed to meet known intrusion points, discover gaps, and reduce the likelihood of unauthorized device and network access.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+</div>
+<!--------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <P>The app connects you yo the talented people around the world.Downlod it from play store.</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <P>The app connects you yo the talented people around the world.Downlod it from play store.</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <P>The app connects you yo the talented people around the world.Downlod it from play store.</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<!--------contact------------>
+<div id="cantact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <br>
+                <p><i class="fa-regular fa-paper-plane"></i>keshanedirisinha@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0774286299</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Downlod CV</a>
+
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Keshan.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0"
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5gBsYVhmU0My-dhB_w5pqHdU83WxeX-0Rhvvcl1HYyVKGYcPuWoOgdGzDJWpcGh8O/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Massage send sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
